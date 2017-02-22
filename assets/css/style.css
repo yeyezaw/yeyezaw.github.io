@@ -30,7 +30,7 @@ Author:	Ukieweb
     General setting
 --------------------*/
 * {
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
     font-weight: 300;
 }
 
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 66px;
+    font-size: 30px;
     line-height: 72px;
     margin-top: 48px;
     margin-bottom: 24px;
@@ -260,8 +260,6 @@ a:hover, a:visited, a:focus, a:active {
 #wraper {
     border-width: 1px;
     border-style: solid;
-    margin: 50px auto;
-    width: 1230px;
 }
 
 .scrollToTop {
@@ -386,12 +384,12 @@ a:hover, a:visited, a:focus, a:active {
 }
 
 .home-header .title {
-    text-transform: uppercase;
+    text-transform: capitalize;
     margin-bottom: 0;
 }
 
 .home-header .sub-title {
-    font-weight: 300;
+    font-weight: 400;
     margin: 0;
     line-height: 34px;
 }
@@ -2278,8 +2276,3 @@ a.icons-menu-button:focus,
 .fc-calendar .fc-row > div, .fc-calendar .fc-body, .fc-calendar .fc-row {
     border: none;
 }
-
-
-
-
-
